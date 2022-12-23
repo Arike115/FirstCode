@@ -24,3 +24,7 @@ Logic.result1();
 Logic.result2();
 Logic.result3();
 Logic.result4(4,5,6);
+
+Looping Looping= new Looping();
+Looping.checking();
+Looping.check();
