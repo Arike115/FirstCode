@@ -17,3 +17,10 @@ std.GetList();
 string word = "hello";
 //array
 string[] words = { "hello", "church", "chalk", "yoga" };
+
+Logic Logic= new Logic();
+Logic.result();
+Logic.result1();
+Logic.result2();
+Logic.result3();
+Logic.result4(4,5,6);
