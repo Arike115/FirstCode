@@ -14,7 +14,7 @@ namespace FirstCode
 
     //Static and Nonstatic class
 
-   public class Student
+   public class Student : IStudent
     {
         //property
         public int Id { get; set; }
@@ -39,6 +39,16 @@ namespace FirstCode
         {
             
             Console.WriteLine("{0}-----{1}-----{2}", Name, Age, Gender);
+        }
+
+        public void GetStudent()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AddStudent(int student)
+        {
+            throw new NotImplementedException();
         }
     }
 }

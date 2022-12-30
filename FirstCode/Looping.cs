@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FirstCode
 {
-    public  class Looping
+    public  class Looping : Logic
     {
         string v = "hello";
         string b = "world";
@@ -15,6 +15,8 @@ namespace FirstCode
         int h = 56;
         int o = 45;
         int t = 12;
+
+        
 
         // conditional statement also known as conditional branching 
        public void checking()

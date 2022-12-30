@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FirstCode
 {
-    public class Logic
+    public class Logic : Student
     {
         //arithemetic operators
         // +, -, *, /,%,++,__
